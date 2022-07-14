@@ -56,10 +56,9 @@ public class SearchInRotatedSortedArray {
 		return -1;
 	}
 	public static void main(String[] args) {
-		int[] array1 = {0, 1, 2, 3, 4};
-		int target = 1;
-		int ans = searchPivot(array1);
-		//int ans = search(array1, target);
+		int[] array1 = {5, 7, 10, 22, 0, 1, 2, 3, 4};
+		int target = 22;
+		int ans = search(array1, target);
 		System.out.println(ans);
 
 	}
