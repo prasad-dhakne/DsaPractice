@@ -6,6 +6,7 @@ package binarySearch;
 // You are given a target value to search. If found in the array return its index, otherwise return -1.
 // in Rotated Sorted Array 1) start>pivot+1 and further all elements till end
 
+
 public class SearchInRotatedSortedArray {
 	static int search(int[] array1, int target) {
 		int pivot = searchPivot(array1);
