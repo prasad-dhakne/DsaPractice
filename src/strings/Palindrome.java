@@ -7,6 +7,9 @@ public class Palindrome {
 	}
 
 	private static boolean isPalindrome(String str) {
+		if(str == null || str.length() == 0) {
+			return true;
+		}
 		int start = 0;
 		int end = str.length() - 1;
 		while(start <= end) {
